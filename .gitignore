@@ -1,0 +1,24 @@
+# 忽略所有模型权重和中间产物
+*.ckpt
+*.bin
+*.pth
+*.pt
+*.h5
+*.data-*
+*.index
+*.meta
+*.h5
+# 忽略 Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 忽略 jupyter notebook 检查点
+.ipynb_checkpoints/
+
+# 忽略数据集、实验输出、大模型目录
+gpt2/
+data/
+output/
+logs/
+runs/
