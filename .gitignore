@@ -12,10 +12,10 @@
 __pycache__/
 *.pyc
 *.pyo
-
+*.zip
 # 忽略 jupyter notebook 检查点
 .ipynb_checkpoints/
-
+*.tsv
 # 忽略数据集、实验输出、大模型目录
 gpt2/
 data/
